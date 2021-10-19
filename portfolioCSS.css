@@ -20,20 +20,31 @@ li a:hover {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Playfair+Display:wght@600&display=swap');
 
 
-body{
-/*  font-family: 'Playfair Display', serif !important;
-*/  
-  font-family: 'Andada Pro', serif !important;
+body{ 
   margin: 0;
 }
 
-.InnerText{
-	color: white;
-	font-weight: bold 700;
-  font-size: 1000px;
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+ color: black;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.name{
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.lead {
+  text-align: right;
 }
 
 .fontChange{
